@@ -1,3 +1,5 @@
+![quiet logo](quiet_logo.png)
+
 Эта программа позволит вам скрыть ненужные логи, но при ошибке выведет ее:
 ```bash
 quiet gut clone # вместо git clone
