@@ -1,4 +1,7 @@
-# <img src="https://gitea.com/miviodev/quiet/raw/branch/master/quiet_logo.png  " width="32"> quiet 
+# <img src="https://gitea.com/miviodev/quiet/raw/branch/master/quiet_logo.png  " width="32"> quiet
+
+![ENG README](./README.md)
+
 Эта программа позволит вам скрыть ненужные логи, но при ошибке выведет ее:
 ```bash
 quiet gut clone # вместо git clone
