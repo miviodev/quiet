@@ -18,9 +18,8 @@ quiet git lig # вместо git log
 	log
 ```
 # Сборка
-для сборки нам понадобится cargo:
+для сборки нам понадобится `cargo`:
 ```bash
 cargo build -r
 ```
-бинарник будет лежать в ./target/release/
-{"version":1,"isFromEmptySelection":false,"multicursorText":null,"mode":"markdown"}
+бинарник будет лежать в `./target/release/`
