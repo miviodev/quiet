@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "quiet"
+name = "quiet-cli"
 version = "0.0.3"

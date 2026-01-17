@@ -1,5 +1,5 @@
 [package]
-name = "quiet"
+name = "quiet-cli"
 version = "0.0.3"
 edition = "2024"
 authors = ["miviodev <miviodev@gmail.com>"]
