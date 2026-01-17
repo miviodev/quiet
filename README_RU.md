@@ -1,6 +1,6 @@
 # <img src="https://gitea.com/miviodev/quiet/raw/branch/master/quiet_logo.png  " width="32"> quiet
 
-🇷🇺 Русская версия | [🇬🇧 English version]((./README.md))
+🇷🇺 Русская версия | [🇬🇧 English version](./README.md)
 
 [![crates.io](https://img.shields.io/badge/crates-io-yellow.svg)](https://crates.io/crates/quiet-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
