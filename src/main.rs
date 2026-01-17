@@ -1,5 +1,3 @@
-
-
 fn main() {
     let arguments: Vec<String> = std::env::args().collect();
     if arguments.len() >= 2 {
@@ -13,15 +11,18 @@ fn main() {
         if !command.status.success() { 
             match command.status.code() {
                 Some(code) =>{
-                        let strr =String::from_utf8_lossy(&command.stderr);
-                        if strr != "" {
-                            eprintln!("[ERROR]: {strr}");
+                        let stderr =String::from_utf8_lossy(&command.stderr);
+                        if !stderr.is_empty() {
+                            eprintln!("[ERROR]: {stderr}");
                         } else {
                             eprintln!("[ERROR]: Exited with status code: {code}");
                         }
                },
-                None => eprintln!("Process terminated by signal")
+                None => eprintln!("[ERROR]: Process terminated by signal")
             };
         }
+    } else {
+        eprintln!("USAGE:\nquiet <command> [args]");
+        std::process::exit(1);
     }
 }
