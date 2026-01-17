@@ -2,8 +2,12 @@
 name = "quiet"
 version = "0.0.3"
 edition = "2024"
-
-[dependencies]
+authors = ["miviodev <miviodev@gmail.com>"]
+license = "MIT"
+repository = "https://gitea.com/miviodev/quiet"
+keywords = ["cli", "command", "silent", "cross-platform", "quiet"]
+description = "Run commands silently. Show only stderr or exit code"
+categories = ["command-line-utilities"]
 [profile.release]
 opt-level = "z"
 lto = true
